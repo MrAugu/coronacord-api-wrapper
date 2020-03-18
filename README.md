@@ -1,0 +1,1 @@
+# coronacord-api-wrapper
