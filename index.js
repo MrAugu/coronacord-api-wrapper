@@ -1,10 +1,6 @@
 const fetch = require("node-fetch");
 
-const setBaseURL = (url) => {
-  process.env.CoronaCordApiBase = url;
-};
+const all = fetch(`http://localhost:9669/api/all`).then(r => r.json());
+const countries = fetch(`http://localhost:9669/api/countries`).then(r => r.json());
 
-const all = fetch(`${process.env.CoronaCordApiBase}/api/all`).then(r => r.json());
-const countries = fetch(`${process.env.CoronaCordApiBase}/api/countries`).then(r => r.json());
-
-module.exports = { setBaseURL, all, countries };
+module.exports = { all, countries };
