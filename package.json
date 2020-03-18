@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrAugu/rich-output.git"
+    "url": "git+https://github.com/MrAugu/coronacord-api-wrapper.git"
   },
   "author": "MrAugu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MrAugu/coronacord-api-wrapper/issues"
+  },
+  "dependencies": {
+     "node-fetch": "^2.6.0"
   },
   "homepage": "https://github.com/MrAugu/coronacord-api-wrapper#readme"
 }
